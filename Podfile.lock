@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TestLibrary:
-    :commit: 771dcf8665070fc88b5585e77986437de4a30a1a
+    :commit: 01815d65cff29174a48ce1a4498760f4bdd89b8d
     :git: https://github.com/ExoticObjects/TestFramework.git
 
 SPEC CHECKSUMS:
