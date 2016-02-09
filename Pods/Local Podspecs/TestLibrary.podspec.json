@@ -14,8 +14,19 @@
   "source_files": "TestLibrary/**/*.{h,m}",
   "requires_arc": true,
   "dependencies": {
+    "AFNetworking": [
+
+    ],
     "STHTTPRequest": [
       "1.0.2"
+    ]
+  },
+  "ios": {
+    "frameworks": [
+      "MobileCoreServices",
+      "CoreGraphics",
+      "Security",
+      "SystemConfiguration"
     ]
   }
 }
