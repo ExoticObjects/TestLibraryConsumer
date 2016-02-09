@@ -1,0 +1,21 @@
+{
+  "name": "TestLibrary",
+  "version": "0.0.3",
+  "summary": "Testing Library",
+  "description": "Compile a framework",
+  "homepage": "https://github.com/ExoticObjects/TestFramework",
+  "license": "MIT",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/ExoticObjects/TestFramework.git"
+  },
+  "source_files": "TestLibrary/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
