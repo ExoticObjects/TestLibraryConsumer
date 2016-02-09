@@ -2,26 +2,20 @@
   "name": "TestLibrary",
   "version": "0.0.3",
   "summary": "Testing Library",
-  "description": "Compile a framework",
-  "homepage": "https://github.com/ExoticObjects/TestFramework",
   "license": "MIT",
+  "homepage": "https://github.com/ExoticObjects/TestFramework",
+  "description": "Compile a framework",
+  "requires_arc": true,
+  "source": {
+  },
   "platforms": {
     "ios": "9.0"
   },
-  "source": {
-    "git": "https://github.com/ExoticObjects/TestFramework.git"
-  },
-  "source_files": "TestLibrary/**/*.{h,m}",
-  "requires_arc": true,
-  "dependencies": {
-    "AFNetworking": [
-
-    ],
-    "STHTTPRequest": [
-      "1.0.2"
-    ]
-  },
   "ios": {
+    "preserve_paths": "ios/TestLibrary.embeddedframework/TestLibrary.framework",
+    "public_header_files": "ios/TestLibrary.embeddedframework/TestLibrary.framework/Versions/A/Headers/*.h",
+    "resources": "ios/TestLibrary.embeddedframework/TestLibrary.framework/Versions/A/Resources/**/*",
+    "vendored_frameworks": "ios/TestLibrary.embeddedframework/TestLibrary.framework",
     "frameworks": [
       "MobileCoreServices",
       "CoreGraphics",
