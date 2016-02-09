@@ -1,36 +1,19 @@
 PODS:
-  - AFNetworking (3.0.4):
-    - AFNetworking/NSURLSession (= 3.0.4)
-    - AFNetworking/Reachability (= 3.0.4)
-    - AFNetworking/Security (= 3.0.4)
-    - AFNetworking/Serialization (= 3.0.4)
-    - AFNetworking/UIKit (= 3.0.4)
-  - AFNetworking/NSURLSession (3.0.4):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.4)
-  - AFNetworking/Security (3.0.4)
-  - AFNetworking/Serialization (3.0.4)
-  - AFNetworking/UIKit (3.0.4):
-    - AFNetworking/NSURLSession
-  - TestLibrary (0.0.3):
-    - AFNetworking
+  - TestLibrary (0.0.3)
 
 DEPENDENCIES:
-  - TestLibrary (from `https://github.com/ExoticObjects/TestFramework.git`)
+  - TestLibrary (from `https://github.com/ExoticObjects/TestFrameworkCompiled.git`)
 
 EXTERNAL SOURCES:
   TestLibrary:
-    :git: https://github.com/ExoticObjects/TestFramework.git
+    :git: https://github.com/ExoticObjects/TestFrameworkCompiled.git
 
 CHECKOUT OPTIONS:
   TestLibrary:
-    :commit: 01815d65cff29174a48ce1a4498760f4bdd89b8d
-    :git: https://github.com/ExoticObjects/TestFramework.git
+    :commit: 7797a5329a23d553c62397087fb79763440cae87
+    :git: https://github.com/ExoticObjects/TestFrameworkCompiled.git
 
 SPEC CHECKSUMS:
-  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  TestLibrary: c683e2b9659b2e5f049f2f72817720b0e239906a
+  TestLibrary: 3e15205f3f87fdd369a63d1df576f213710e2fbd
 
 COCOAPODS: 0.39.0
