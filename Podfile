@@ -4,10 +4,10 @@ use_frameworks!
 
 target :TestLibraryConsumer do
 
-  # build from source - import and code in AppDelegate works fine
+  # build from source - import in AppDelegate compiles fine
   # pod 'TestLibrary', :git => 'https://github.com/ExoticObjects/TestFramework.git'
 
-  # build from framework compiled from that source - import and code in AppDelegate do not compile in Xcode
+  # build from framework compiled from that source - import in AppDelegate does not compile
   pod 'TestLibrary', :git => 'https://github.com/ExoticObjects/TestFrameworkCompiled.git'
 
 end
