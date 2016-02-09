@@ -1,19 +1,17 @@
 PODS:
-  - TestLibrary (0.0.3)
+  - STHTTPRequest (1.0.2)
+  - TestLibrary (0.0.3):
+    - STHTTPRequest (= 1.0.2)
 
 DEPENDENCIES:
-  - TestLibrary (from `https://github.com/ExoticObjects/TestFrameworkCompiled.git`)
+  - TestLibrary (from `../TestFramework`)
 
 EXTERNAL SOURCES:
   TestLibrary:
-    :git: https://github.com/ExoticObjects/TestFrameworkCompiled.git
-
-CHECKOUT OPTIONS:
-  TestLibrary:
-    :commit: 7797a5329a23d553c62397087fb79763440cae87
-    :git: https://github.com/ExoticObjects/TestFrameworkCompiled.git
+    :path: "../TestFramework"
 
 SPEC CHECKSUMS:
-  TestLibrary: 3e15205f3f87fdd369a63d1df576f213710e2fbd
+  STHTTPRequest: f4ca4e3ca31ebd9b54c134aa721ddd1711f1089d
+  TestLibrary: b4baceff144efbb7118f3b6dcced9c0eeab7f988
 
 COCOAPODS: 0.39.0
